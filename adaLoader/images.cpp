@@ -7,7 +7,7 @@ const image_t PROGMEM image_84 = {
     {0x3F, 0x62, 0xDF, 0xFF},            // pre program fuses (prot/lock, low, high, ext)
     {0x0F, 0x0, 0x0, 0x0},            // post program fuses
     {0x3F, 0xFF, 0xFF, 0x07},           // fuse mask
-    8000,     // size of chip flash in bytes
+    8192,     // size of chip flash in bytes
     64,   // size in bytes of flash page
     {
 ":100000002AC0B1C141C040C03FC03EC03DC03CC09D\n"
